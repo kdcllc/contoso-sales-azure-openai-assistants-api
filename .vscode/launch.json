@@ -11,12 +11,13 @@
                 "--host",
                 "0.0.0.0",
                 "--port",
-                "80"
+                "8090"
             ],
             "console": "integratedTerminal",
             "env": {
                 "ENV": "development"
-            }
+            },
+            "envFile": "${workspaceFolder}/src/.env"
         }
     ]
 }
